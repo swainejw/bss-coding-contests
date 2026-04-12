@@ -1,0 +1,10 @@
+The smallest number of coconuts for 8 men is: 32761
+The smallest number of coconuts for 23 men is: 6436321
+The smallest number of coconuts for 18 men is: 1889551
+The smallest number of coconuts for 49 men is: 282475201
+The smallest number of coconuts for 1 men is: 1
+The smallest number of coconuts for 50 men is: 312499951
+The smallest number of coconuts for 29 men is: 20511121
+The smallest number of coconuts for 38 men is: 79235131
+The smallest number of coconuts for 44 men is: 164916181
+The smallest number of coconuts for 12 men is: 248821

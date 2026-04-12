@@ -1,0 +1,35 @@
+
+ATTEMPT 1
+
+
+Input file name: ______.txt
+Award 10 marks for each exactly correct line. Deduct 10 points one time if any line is not formatted exactly correctly or is not all in lower case.Award 10 bonus marks if all 10 lines are exactly correct.
+
+64
+4096
+0
+2
+8189
+1941
+206
+1048575
+46
+1
+
+
+ATTEMPT 2
+
+
+Input file name: ______.txt
+Award 10 marks for each exactly correct line. Deduct 10 points one time if any line is not formatted exactly correctly or is not all in lower case.Award 10 bonus marks if all 10 lines are exactly correct.
+
+144
+1062882
+0
+9
+8189
+3455
+43
+262143
+66
+1

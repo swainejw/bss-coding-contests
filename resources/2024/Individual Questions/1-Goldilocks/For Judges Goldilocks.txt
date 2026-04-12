@@ -1,0 +1,32 @@
+ATTEMPT ONE
+
+Input file name: DATA11.txt
+Award 10 marks for each exactly correct line. Deduct 10 points one time if any line is not formatted exactly correctly or is not all in lower case.Award 10 bonus marks if all 10 lines are exactly correct.
+
+12 20 8 12 17 
+25 
+33 90 
+23 29 23 
+43 
+32 20 30 89 94 84 38 
+2 
+12 12 12 12 12 12 12 12 
+98 
+2 2 4 
+
+ATTEMPT TWO
+
+Input file name: DATA12.txt
+Award 10 marks for each exactly correct line. Deduct 10 points one time if any line is not formatted exactly correctly or is not all in lower case.Award 10 bonus marks if all 10 lines are exactly correct.
+
+
+3 24 23 12 17 
+24 
+55 23 
+23 39 23 
+42 
+34 49 49 89 13 3 5 
+2 
+12 10 6 10 10 14 6 10 
+97 
+2 16 46 

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSS Pairs Coding Invitational</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f3a5f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2c5282;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            min-height: 70vh;
+        }
+
+        footer {
+            background-color: #1f3a5f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        h2 {
+            color: #1f3a5f;
+        }
+
+        .resource {
+            margin-bottom: 15px;
+        }
+
+        .resource a {
+            color: #2c5282;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 500px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #2c5282;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1f3a5f;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(p => p.classList.add('hidden'));
+            document.getElementById(pageId).classList.remove('hidden');
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>BSS Pairs Coding Invitational</h1>
+        <p>Hosted by Jon Swaine, Computer Science Teacher at Bayridge SS</p>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showPage('about')">About</a>
+        <a href="#" onclick="showPage('rules')">Rules</a>
+        <a href="#" onclick="showPage('resources')">Resources</a>
+        <a href="#" onclick="showPage('register')">Register / Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about" class="page">
+            <h2>About the Contest</h2>
+            <p>The BSS Pairs Coding Invitational is a collaborative programming competition where teams of two students
+                work together to solve algorithmic and logical challenges.</p>
+            <p>The goal of the contest is to encourage problem-solving, teamwork, and creativity in coding.</p>
+        </section>
+
+        <section id="rules" class="page hidden">
+            <h2>Contest Rules</h2>
+            <ul>
+                <li>Teams consist of two students.</li>
+                <li>Only one computer may be used per team (external monitors allowed).</li>
+                <li>Students may bring books and written materials.</li>
+                <li>Students may use programs they have written themselves.</li>
+                <li>Students may access official documentation for their programming language.</li>
+                <li>No communication with others during the contest.</li>
+            </ul>
+        </section>
+
+        <section id="resources" class="page hidden">
+            <h2>Contest Resources</h2>
+
+            <div class="resource">
+                <p>2025 Contest Materials</p>
+                <a href="resources/2025/2025.zip" download>Download 2025 ZIP</a>
+            </div>
+
+            <div class="resource">
+                <p>2024 Contest Materials</p>
+                <a href="resources/2024/2024.zip" download>Download 2024 ZIP</a>
+            </div>
+
+            <div class="resource">
+                <p>2023 Contest Materials</p>
+                <a href="resources/2023/2023.zip" download>Download 2023 ZIP</a>
+            </div>
+
+        </section>
+
+        <section id="register" class="page hidden">
+            <h2>Registration & Contact</h2>
+
+            <p>Interested in participating? Fill out the form below or contact Jon Swaine directly.</p>
+
+            <!-- Replace action with your actual form handler (e.g., Formspree, Google Forms, or school backend) -->
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <input type="text" name="school" placeholder="School Name" required>
+                <input type="text" name="teacher" placeholder="Teacher Name" required>
+                <input type="email" name="email" placeholder="Contact Email" required>
+                <input type="number" name="teams" placeholder="Number of Teams" min="1" required>
+                <textarea name="message" rows="4" placeholder="Additional notes (optional)"></textarea>
+                <button type="submit">Submit Registration</button>
+            </form>
+
+            <p class="note">Note: This form requires a backend service (like Formspree or Google Forms) to work.</p>
+
+            <h3>Direct Contact</h3>
+            <p>Email: <a href="mailto:swainejw@limestone.on.ca">Jon Swaine</a></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bayridge Secondary School | Jon Swaine</p>
+    </footer>
+
+    <script>
+        showPage('about');
+    </script>
+
+</body>
+
+</html>
+v
