@@ -2,66 +2,144 @@
 <html lang="en">
 
 <head>
-    footer {
-    background-color: #1f3a5f;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSS Pairs Coding Invitational</title>
 
-    .hidden { display: none; }
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
-    h2 {
-    color: #ff7a00;
-    font-weight: 600;
-    }
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
 
-    .resource {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-left: 4px solid #ff7a00;
-    background: #fafafa;
-    }
+    <style>
+        body {
+            font-family: 'Josefin Sans', Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
 
-    .resource a {
-    color: #1f3a5f;
-    font-weight: 600;
-    }
+        header {
+            background: linear-gradient(135deg, #ff7a00, #ff9a2a);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
 
-    form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 500px;
-    }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
 
-    input, textarea {
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Josefin Sans', Arial, sans-serif;
-    }
+        nav {
+            background-color: #1f3a5f;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 12px;
+            flex-wrap: wrap;
+        }
 
-    button {
-    background-color: #ff7a00;
-    color: white;
-    border: none;
-    padding: 12px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 600;
-    }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: opacity 0.2s;
+        }
 
-    button:hover {
-    background-color: #e66d00;
-    }
+        nav a:hover {
+            opacity: 0.7;
+        }
 
-    .note {
-    font-size: 0.9em;
-    color: #555;
-    }
+        main {
+            padding: 25px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            min-height: 70vh;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #1f3a5f;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        h2 {
+            color: #ff7a00;
+            font-weight: 600;
+        }
+
+        .resource {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid #ff7a00;
+            background: #fafafa;
+            border-radius: 6px;
+        }
+
+        .resource p {
+            margin: 5px 0;
+        }
+
+        .resource a {
+            color: #1f3a5f;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .resource a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 500px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Josefin Sans', Arial, sans-serif;
+        }
+
+        button {
+            background-color: #ff7a00;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #e66d00;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #555;
+        }
     </style>
 
     <script>
@@ -112,33 +190,24 @@
             <h2>Contest Resources</h2>
 
             <div class="resource">
-
-                <p>2025 Contest Materials</p>
-                </ol>
-                <li>
-                    <ol><a href="resources/2025/BSS Pairs Coding Contest 2025.pdf">Questions in PDF File</a></ol>
-                    <ol><a href="https://drive.google.com/file/d/131zKsyaZIXtH9E-ST1dlDVSAFV2tx2hn/view?usp=drive_link"
-                            download>Download 2025 ZIP</a></ol>
-                </li>
+                <p><strong>2025 Contest Materials</strong></p>
+                <p><a href="resources/2025/BSS Pairs Coding Contest 2025.pdf">Questions (PDF)</a></p>
+                <p><a href="https://drive.google.com/file/d/131zKsyaZIXtH9E-ST1dlDVSAFV2tx2hn/view?usp=drive_link"
+                        target="_blank">Download ZIP</a></p>
             </div>
 
             <div class="resource">
-                <li>
-                    <p>2024 Contest Materials</p>
-                    <ol><a href="resources/2024/BSS Pairs Coding Contest 2024.pdf">Questions in PDF File</a></ol>
-                    <ol><a href="https://drive.google.com/file/d/1nbQyodLxATPoWJT_iDfDSw1xOb0fwkXB/view?usp=drive_link"
-                            download>Download 2024 ZIP</a></ol>
-                </li>
+                <p><strong>2024 Contest Materials</strong></p>
+                <p><a href="resources/2024/BSS Pairs Coding Contest 2024.pdf">Questions (PDF)</a></p>
+                <p><a href="https://drive.google.com/file/d/1nbQyodLxATPoWJT_iDfDSw1xOb0fwkXB/view?usp=drive_link"
+                        target="_blank">Download ZIP</a></p>
             </div>
 
             <div class="resource">
-                <li>
-                    <p>2023 Contest Materials</p>
-                    <ol><a href="resources/2023/Blazers Coding Invitational Questions 2023.pdf">Questions in PDF
-                            File</a></ol>
-                    <ol><a href="https://drive.google.com/file/d/1uUXc8UEanaY3la4NkdPa2JcqwT0ggfI4/view?usp=drive_link"
-                            download>Download 2023 ZIP</a></ol>
-                </li>
+                <p><strong>2023 Contest Materials</strong></p>
+                <p><a href="resources/2023/Blazers Coding Invitational Questions 2023.pdf">Questions (PDF)</a></p>
+                <p><a href="https://drive.google.com/file/d/1uUXc8UEanaY3la4NkdPa2JcqwT0ggfI4/view?usp=drive_link"
+                        target="_blank">Download ZIP</a></p>
             </div>
 
         </section>
@@ -148,7 +217,6 @@
 
             <p>Interested in participating? Fill out the form below or contact Jon Swaine directly.</p>
 
-            <!-- Replace action with your actual form handler (e.g., Formspree, Google Forms, or school backend) -->
             <form action="https://formspree.io/f/your-form-id" method="POST">
                 <input type="text" name="school" placeholder="School Name" required>
                 <input type="text" name="teacher" placeholder="Teacher Name" required>
@@ -161,7 +229,7 @@
             <p class="note">Note: This form requires a backend service (like Formspree or Google Forms) to work.</p>
 
             <h3>Direct Contact</h3>
-            <p>Email: <a href="mailto:swainejw@limestone.on.ca">Jon Swaine</a></p>
+            <p>Email: <a href="mailto:swainejw@limestone.on.ca">swainejw@limestone.on.ca</a></p>
 
         </section>
 
@@ -178,4 +246,3 @@
 </body>
 
 </html>
-v
