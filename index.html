@@ -7,7 +7,7 @@
     <title>BSS Pairs Coding Invitational</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap"
@@ -155,7 +155,7 @@
 
     <header>
         <h1>BSS Pairs Coding Invitational</h1>
-        <p>Hosted Annually by the Bayridge Computer Specialist Program in Kingston, Ontario</p>
+        <p>Hosted by Jon Swaine, Computer Science Teacher at Bayridge SS</p>
     </header>
 
     <nav>
@@ -175,25 +175,61 @@
         </section>
 
         <section id="rules" class="page hidden">
-            <h2>Contest Rules</h2>
+            <h2>Rules for Bayridge Pairs Coding Competition 2026</h2>
+
+            <p><strong>Before the competition:</strong><br>
+                Competitors should go to <a href="https://bit.ly/bayridgedata2026"
+                    target="_blank">bit.ly/bayridgedata2026</a> and download the entire folder. This folder contains the
+                datasets needed for all questions. The files are password-protected.</p>
+
             <ul>
-                <li>Teams consist of two students.</li>
                 <li>There are two divisions:
                     <ul>
-                        <li><strong>Junior Division:</strong> Intended for beginners or students who have never
-                            participated in a coding contest. Participants must be in Grade 9 or 10.</li>
-                        <li><strong>Senior Division:</strong> The traditional contest format, intended for more
-                            experienced students, following the same style as in previous years.</li>
+                        <li><strong>Junior Division:</strong> For beginners (Grade 9–10), designed to be more
+                            accessible.</li>
+                        <li><strong>Senior Division:</strong> Traditional contest format as in previous years.</li>
                     </ul>
                 </li>
-                <li>Only one computer may be used per team (external monitors allowed).</li>
-                <li>Students may bring books and written materials.</li>
-                <li>Students may use programs they have written themselves.</li>
-                <li>Students may access official documentation for their programming language.</li>
-                <li>No communication with others during the contest.</li>
-            </ul>
-        </section>
 
+                <li>The contest is 3 hours long (starting around 10:00).</li>
+                <li>Each division has 6 questions.</li>
+                <li>Teams must bring their own devices and power cords. Extension cords are strongly recommended.</li>
+                <li>External monitors are allowed, but space will be limited.</li>
+            </ul>
+
+            <h3>Allowed Resources</h3>
+            <ul>
+                <li>Official documentation (e.g., <a href="https://docs.oracle.com/javase/8/docs/api/"
+                        target="_blank">Java Docs</a>, <a href="https://docs.python.org/3/" target="_blank">Python
+                        Docs</a>)</li>
+                <li>Books and notes (physical or digital)</li>
+                <li>Programs already on the device before the contest</li>
+            </ul>
+
+            <h3>Not Allowed</h3>
+            <ul>
+                <li>No access to other websites (no Google, StackOverflow, etc.)</li>
+                <li>No AI tools (e.g., ChatGPT, Copilot, etc.)</li>
+            </ul>
+
+            <h3>Judging</h3>
+            <ul>
+                <li>Any programming language or IDE may be used; judging is based on program output only.</li>
+                <li>To submit, teams raise a paper and receive the password for the dataset.</li>
+                <li>Each problem includes 10 input sets; output must match all.</li>
+                <li>Each correct output = 10 points (max 100).</li>
+                <li>Perfect score bonus: +10 points if achieved on the first attempt (total 110 + time bonus).</li>
+                <li>No bonus if not perfect on first attempt.</li>
+                <li>Up to 10 attempts per question.</li>
+                <li>The <strong>most recent score counts</strong> (not the highest).</li>
+                <li>Time is recorded at submission for tie-breaking.</li>
+                <li>Teams keep datasets and outputs after each attempt for debugging.</li>
+            </ul>
+
+            <h3>After One Hour</h3>
+            <p>If a team is struggling, they may declare themselves "out" (ineligible to win). At that point, they may
+                use the open Internet and any resources <strong>except AI tools</strong>.</p>
+        </section>
 
         <section id="resources" class="page hidden">
             <h2>Contest Resources</h2>
@@ -226,11 +262,17 @@
 
             <p>Interested in participating? Fill out the form below or contact Jon Swaine directly.</p>
 
-            <p><a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSe_MccijmXGRac3FxHxFYrkmg2SF6_f-qygVHmEuMFjBLUaQw/viewform?usp=header">Register
-                    Here for 2026</a></p>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <input type="text" name="school" placeholder="School Name" required>
+                <input type="text" name="teacher" placeholder="Teacher Name" required>
+                <input type="email" name="email" placeholder="Contact Email" required>
+                <input type="number" name="teams" placeholder="Number of Teams" min="1" required>
+                <textarea name="message" rows="4" placeholder="Additional notes (optional)"></textarea>
+                <button type="submit">Submit Registration</button>
+            </form>
 
-            <br>
+            <p class="note">Note: This form requires a backend service (like Formspree or Google Forms) to work.</p>
+
             <h3>Direct Contact</h3>
             <p>Email: <a href="mailto:swainejw@limestone.on.ca">swainejw@limestone.on.ca</a></p>
 
@@ -239,7 +281,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Bayridge Computer Specialist Program</p>
+        <p>&copy; 2026 Bayridge Secondary School | Jon Swaine</p>
     </footer>
 
     <script>
